@@ -1,0 +1,1217 @@
+2012/09/29 11:26:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "gallery".' in G:\portable\xampp\framework\web\CController.php:484
+Stack trace:
+#0 G:\portable\xampp\framework\web\CController.php(271): CController->missingAction('gallery')
+#1 G:\portable\xampp\framework\web\CWebApplication.php(283): CController->run('gallery')
+#2 G:\portable\xampp\framework\web\CWebApplication.php(142): CWebApplication->runController('site/gallery')
+#3 G:\portable\xampp\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 G:\portable\xampp\htdocs\sample\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sample/index.php?r=site/gallery
+HTTP_REFERER=http://localhost/sample/index.php?r=site/index
+---
+2012/09/29 11:33:31 [error] [php] Array to string conversion (G:\portable\xampp\htdocs\sample\protected\views\site\gallery.php:3)
+Stack trace:
+#0 G:\portable\xampp\framework\web\CController.php(870): SiteController->renderFile()
+#1 G:\portable\xampp\framework\web\CController.php(783): SiteController->renderPartial()
+#2 G:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php(81): SiteController->render()
+#3 G:\portable\xampp\framework\web\actions\CInlineAction.php(50): SiteController->actionGallery()
+#4 G:\portable\xampp\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 G:\portable\xampp\framework\web\CController.php(287): SiteController->runAction()
+#6 G:\portable\xampp\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 G:\portable\xampp\framework\web\CWebApplication.php(283): SiteController->run()
+#8 G:\portable\xampp\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 G:\portable\xampp\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 G:\portable\xampp\htdocs\sample\index.php(13): CWebApplication->run()
+REQUEST_URI=/sample/index.php?r=site/gallery
+in G:\portable\xampp\htdocs\sample\protected\views\site\gallery.php (3)
+in G:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php (81)
+in G:\portable\xampp\htdocs\sample\index.php (13)
+2012/09/29 11:35:53 [error] [php] Undefined variable: val (G:\portable\xampp\htdocs\sample\protected\views\site\gallery.php:3)
+Stack trace:
+#0 G:\portable\xampp\framework\web\CController.php(870): SiteController->renderFile()
+#1 G:\portable\xampp\framework\web\CController.php(783): SiteController->renderPartial()
+#2 G:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php(81): SiteController->render()
+#3 G:\portable\xampp\framework\web\actions\CInlineAction.php(50): SiteController->actionGallery()
+#4 G:\portable\xampp\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 G:\portable\xampp\framework\web\CController.php(287): SiteController->runAction()
+#6 G:\portable\xampp\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 G:\portable\xampp\framework\web\CWebApplication.php(283): SiteController->run()
+#8 G:\portable\xampp\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 G:\portable\xampp\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 G:\portable\xampp\htdocs\sample\index.php(13): CWebApplication->run()
+REQUEST_URI=/sample/index.php?r=site/gallery
+in G:\portable\xampp\htdocs\sample\protected\views\site\gallery.php (3)
+in G:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php (81)
+in G:\portable\xampp\htdocs\sample\index.php (13)
+2012/10/18 19:15:54 [error] [php] Undefined variable: articles (G:\portable\xampp\htdocs\sample\protected\views\site\index.php:17)
+Stack trace:
+#0 G:\portable\xampp\htdocs\yii\web\CController.php(870): SiteController->renderFile()
+#1 G:\portable\xampp\htdocs\yii\web\CController.php(783): SiteController->renderPartial()
+#2 G:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php(36): SiteController->render()
+#3 G:\portable\xampp\htdocs\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 G:\portable\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams()
+#5 G:\portable\xampp\htdocs\yii\web\CController.php(287): SiteController->runAction()
+#6 G:\portable\xampp\htdocs\yii\web\CController.php(266): SiteController->runActionWithFilters()
+#7 G:\portable\xampp\htdocs\yii\web\CWebApplication.php(283): SiteController->run()
+#8 G:\portable\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#9 G:\portable\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#10 G:\portable\xampp\htdocs\sample\index.php(13): CWebApplication->run()
+REQUEST_URI=/sample/
+in G:\portable\xampp\htdocs\sample\protected\views\site\index.php (17)
+in G:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php (36)
+in G:\portable\xampp\htdocs\sample\index.php (13)
+2012/10/20 12:10:08 [error] [php] Parameter 1 to SiteController::actionGallery() expected to be a reference, value given (H:\portable\xampp\htdocs\yii\web\actions\CAction.php:107)
+Stack trace:
+#0 H:\portable\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams()
+#1 H:\portable\xampp\htdocs\yii\web\CController.php(287): SiteController->runAction()
+#2 H:\portable\xampp\htdocs\yii\web\CController.php(266): SiteController->runActionWithFilters()
+#3 H:\portable\xampp\htdocs\yii\web\CWebApplication.php(283): SiteController->run()
+#4 H:\portable\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#5 H:\portable\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#6 H:\portable\xampp\htdocs\sample\index.php(13): CWebApplication->run()
+REQUEST_URI=/sample/index.php?r=site/gallery&page=i
+in H:\portable\xampp\htdocs\sample\index.php (13)
+2012/10/20 12:29:42 [error] [exception.CException] exception 'CException' with message 'Property "CDbCriteria.limit" is not defined.' in H:\portable\xampp\htdocs\yii\base\CComponent.php:131
+Stack trace:
+#0 H:\portable\xampp\htdocs\yii\db\schema\CDbCommandBuilder.php(99): CComponent->__get('limit')
+#1 H:\portable\xampp\htdocs\yii\db\ar\CActiveRecord.php(1290): CDbCommandBuilder->createFindCommand(Object(CDbTableSchema), Object(CDbCriteria))
+#2 H:\portable\xampp\htdocs\yii\db\ar\CActiveRecord.php(1410): CActiveRecord->query(Object(CDbCriteria), true)
+#3 H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php(66): CActiveRecord->findAll(Object(CDbCriteria))
+#4 [internal function]: SiteController->actionGallery('1')
+#5 H:\portable\xampp\htdocs\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#6 H:\portable\xampp\htdocs\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#7 H:\portable\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 H:\portable\xampp\htdocs\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#9 H:\portable\xampp\htdocs\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 H:\portable\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('gallery')
+#11 H:\portable\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('site/gallery')
+#12 H:\portable\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#13 H:\portable\xampp\htdocs\sample\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/sample/index.php?r=site/gallery&page=1
+HTTP_REFERER=http://localhost/sample/index.php?r=site/gallery&page=2
+---
+2012/10/20 12:44:26 [error] [system.db.CDbCommand] Error in preparing SQL: SELECT * FROM 'tbl_images' 't' OFFSET 1
+in H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php (71)
+in H:\portable\xampp\htdocs\sample\index.php (13)
+2012/10/20 12:44:26 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 near "OFFSET": syntax error. The SQL statement executed was: SELECT * FROM 'tbl_images' 't' OFFSET 1.
+in H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php (71)
+in H:\portable\xampp\htdocs\sample\index.php (13)
+2012/10/20 12:44:26 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 near "OFFSET": syntax error. The SQL statement executed was: SELECT * FROM 'tbl_images' 't' OFFSET 1' in H:\portable\xampp\htdocs\yii\db\CDbCommand.php:528
+Stack trace:
+#0 H:\portable\xampp\htdocs\yii\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 H:\portable\xampp\htdocs\yii\db\ar\CActiveRecord.php(1291): CDbCommand->queryAll()
+#2 H:\portable\xampp\htdocs\yii\db\ar\CActiveRecord.php(1410): CActiveRecord->query(Object(CDbCriteria), true)
+#3 H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php(71): CActiveRecord->findAll(Object(CDbCriteria))
+#4 [internal function]: SiteController->actionGallery('1')
+#5 H:\portable\xampp\htdocs\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#6 H:\portable\xampp\htdocs\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#7 H:\portable\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 H:\portable\xampp\htdocs\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#9 H:\portable\xampp\htdocs\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 H:\portable\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('gallery')
+#11 H:\portable\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('site/gallery')
+#12 H:\portable\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#13 H:\portable\xampp\htdocs\sample\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/sample/index.php?r=site/gallery&page=1
+---
+2012/10/20 12:45:33 [error] [system.db.CDbCommand] Error in preparing SQL: SELECT * FROM 'tbl_images' 't' OFFSET 1
+in H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php (71)
+in H:\portable\xampp\htdocs\sample\index.php (13)
+2012/10/20 12:45:33 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 near "OFFSET": syntax error. The SQL statement executed was: SELECT * FROM 'tbl_images' 't' OFFSET 1.
+in H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php (71)
+in H:\portable\xampp\htdocs\sample\index.php (13)
+2012/10/20 12:45:33 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 near "OFFSET": syntax error. The SQL statement executed was: SELECT * FROM 'tbl_images' 't' OFFSET 1' in H:\portable\xampp\htdocs\yii\db\CDbCommand.php:528
+Stack trace:
+#0 H:\portable\xampp\htdocs\yii\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 H:\portable\xampp\htdocs\yii\db\ar\CActiveRecord.php(1291): CDbCommand->queryAll()
+#2 H:\portable\xampp\htdocs\yii\db\ar\CActiveRecord.php(1410): CActiveRecord->query(Object(CDbCriteria), true)
+#3 H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php(71): CActiveRecord->findAll(Object(CDbCriteria))
+#4 [internal function]: SiteController->actionGallery('1')
+#5 H:\portable\xampp\htdocs\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#6 H:\portable\xampp\htdocs\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#7 H:\portable\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 H:\portable\xampp\htdocs\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#9 H:\portable\xampp\htdocs\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 H:\portable\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('gallery')
+#11 H:\portable\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('site/gallery')
+#12 H:\portable\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#13 H:\portable\xampp\htdocs\sample\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/sample/index.php?r=site/gallery&page=1
+---
+2012/10/20 12:51:50 [error] [system.db.CDbCommand] Error in preparing SQL: SELECT * FROM 'tbl_images' 't' OFFSET 1
+in H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php (71)
+in H:\portable\xampp\htdocs\sample\index.php (13)
+2012/10/20 12:51:50 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 near "OFFSET": syntax error. The SQL statement executed was: SELECT * FROM 'tbl_images' 't' OFFSET 1.
+in H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php (71)
+in H:\portable\xampp\htdocs\sample\index.php (13)
+2012/10/20 12:51:50 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 near "OFFSET": syntax error. The SQL statement executed was: SELECT * FROM 'tbl_images' 't' OFFSET 1' in H:\portable\xampp\htdocs\yii\db\CDbCommand.php:528
+Stack trace:
+#0 H:\portable\xampp\htdocs\yii\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 H:\portable\xampp\htdocs\yii\db\ar\CActiveRecord.php(1291): CDbCommand->queryAll()
+#2 H:\portable\xampp\htdocs\yii\db\ar\CActiveRecord.php(1410): CActiveRecord->query(Object(CDbCriteria), true)
+#3 H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php(71): CActiveRecord->findAll(Object(CDbCriteria))
+#4 [internal function]: SiteController->actionGallery('1')
+#5 H:\portable\xampp\htdocs\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#6 H:\portable\xampp\htdocs\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#7 H:\portable\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 H:\portable\xampp\htdocs\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#9 H:\portable\xampp\htdocs\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 H:\portable\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('gallery')
+#11 H:\portable\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('site/gallery')
+#12 H:\portable\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#13 H:\portable\xampp\htdocs\sample\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/sample/index.php?r=site/gallery&page=1
+---
+2012/10/20 12:51:56 [error] [system.db.CDbCommand] Error in preparing SQL: SELECT * FROM 'tbl_images' 't' OFFSET 1
+in H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php (71)
+in H:\portable\xampp\htdocs\sample\index.php (13)
+2012/10/20 12:51:56 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 near "OFFSET": syntax error. The SQL statement executed was: SELECT * FROM 'tbl_images' 't' OFFSET 1.
+in H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php (71)
+in H:\portable\xampp\htdocs\sample\index.php (13)
+2012/10/20 12:51:56 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 near "OFFSET": syntax error. The SQL statement executed was: SELECT * FROM 'tbl_images' 't' OFFSET 1' in H:\portable\xampp\htdocs\yii\db\CDbCommand.php:528
+Stack trace:
+#0 H:\portable\xampp\htdocs\yii\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 H:\portable\xampp\htdocs\yii\db\ar\CActiveRecord.php(1291): CDbCommand->queryAll()
+#2 H:\portable\xampp\htdocs\yii\db\ar\CActiveRecord.php(1410): CActiveRecord->query(Object(CDbCriteria), true)
+#3 H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php(71): CActiveRecord->findAll(Object(CDbCriteria))
+#4 [internal function]: SiteController->actionGallery('1')
+#5 H:\portable\xampp\htdocs\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#6 H:\portable\xampp\htdocs\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#7 H:\portable\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 H:\portable\xampp\htdocs\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#9 H:\portable\xampp\htdocs\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 H:\portable\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('gallery')
+#11 H:\portable\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('site/gallery')
+#12 H:\portable\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#13 H:\portable\xampp\htdocs\sample\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/sample/index.php?r=site/gallery&page=1
+---
+2012/10/20 13:06:39 [error] [system.db.CDbCommand] Error in preparing SQL: SELECT * FROM 'tbl_images' 't' WHERE OFFSET 1 LIMIT 8
+in H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php (69)
+in H:\portable\xampp\htdocs\sample\index.php (13)
+2012/10/20 13:06:39 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 near "1": syntax error. The SQL statement executed was: SELECT * FROM 'tbl_images' 't' WHERE OFFSET 1 LIMIT 8.
+in H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php (69)
+in H:\portable\xampp\htdocs\sample\index.php (13)
+2012/10/20 13:06:39 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 near "1": syntax error. The SQL statement executed was: SELECT * FROM 'tbl_images' 't' WHERE OFFSET 1 LIMIT 8' in H:\portable\xampp\htdocs\yii\db\CDbCommand.php:528
+Stack trace:
+#0 H:\portable\xampp\htdocs\yii\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 H:\portable\xampp\htdocs\yii\db\ar\CActiveRecord.php(1291): CDbCommand->queryAll()
+#2 H:\portable\xampp\htdocs\yii\db\ar\CActiveRecord.php(1410): CActiveRecord->query(Object(CDbCriteria), true)
+#3 H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php(69): CActiveRecord->findAll(Object(CDbCriteria))
+#4 [internal function]: SiteController->actionGallery('1')
+#5 H:\portable\xampp\htdocs\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#6 H:\portable\xampp\htdocs\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#7 H:\portable\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 H:\portable\xampp\htdocs\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#9 H:\portable\xampp\htdocs\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 H:\portable\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('gallery')
+#11 H:\portable\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('site/gallery')
+#12 H:\portable\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#13 H:\portable\xampp\htdocs\sample\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/sample/index.php?r=site/gallery&page=1
+---
+2012/10/20 13:14:30 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY000]: General error: 25 bind or column index out of range. The SQL statement executed was: SELECT * FROM 'tbl_images' 't'.
+in H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php (69)
+in H:\portable\xampp\htdocs\sample\index.php (13)
+2012/10/20 13:14:30 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 25 bind or column index out of range. The SQL statement executed was: SELECT * FROM 'tbl_images' 't'' in H:\portable\xampp\htdocs\yii\db\CDbCommand.php:528
+Stack trace:
+#0 H:\portable\xampp\htdocs\yii\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 H:\portable\xampp\htdocs\yii\db\ar\CActiveRecord.php(1291): CDbCommand->queryAll()
+#2 H:\portable\xampp\htdocs\yii\db\ar\CActiveRecord.php(1410): CActiveRecord->query(Object(CDbCriteria), true)
+#3 H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php(69): CActiveRecord->findAll(Object(CDbCriteria))
+#4 [internal function]: SiteController->actionGallery('1')
+#5 H:\portable\xampp\htdocs\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#6 H:\portable\xampp\htdocs\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#7 H:\portable\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 H:\portable\xampp\htdocs\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#9 H:\portable\xampp\htdocs\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 H:\portable\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('gallery')
+#11 H:\portable\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('site/gallery')
+#12 H:\portable\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#13 H:\portable\xampp\htdocs\sample\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/sample/index.php?r=site/gallery&page=1
+---
+2012/10/20 13:15:10 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY000]: General error: 25 bind or column index out of range. The SQL statement executed was: SELECT * FROM 'tbl_images' 't'.
+in H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php (69)
+in H:\portable\xampp\htdocs\sample\index.php (13)
+2012/10/20 13:15:10 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 25 bind or column index out of range. The SQL statement executed was: SELECT * FROM 'tbl_images' 't'' in H:\portable\xampp\htdocs\yii\db\CDbCommand.php:528
+Stack trace:
+#0 H:\portable\xampp\htdocs\yii\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 H:\portable\xampp\htdocs\yii\db\ar\CActiveRecord.php(1291): CDbCommand->queryAll()
+#2 H:\portable\xampp\htdocs\yii\db\ar\CActiveRecord.php(1410): CActiveRecord->query(Object(CDbCriteria), true)
+#3 H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php(69): CActiveRecord->findAll(Object(CDbCriteria))
+#4 [internal function]: SiteController->actionGallery('1')
+#5 H:\portable\xampp\htdocs\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#6 H:\portable\xampp\htdocs\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#7 H:\portable\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 H:\portable\xampp\htdocs\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#9 H:\portable\xampp\htdocs\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 H:\portable\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('gallery')
+#11 H:\portable\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('site/gallery')
+#12 H:\portable\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#13 H:\portable\xampp\htdocs\sample\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/sample/index.php?r=site/gallery&page=1
+---
+2012/10/20 13:15:14 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY000]: General error: 25 bind or column index out of range. The SQL statement executed was: SELECT * FROM 'tbl_images' 't'.
+in H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php (69)
+in H:\portable\xampp\htdocs\sample\index.php (13)
+2012/10/20 13:15:14 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 25 bind or column index out of range. The SQL statement executed was: SELECT * FROM 'tbl_images' 't'' in H:\portable\xampp\htdocs\yii\db\CDbCommand.php:528
+Stack trace:
+#0 H:\portable\xampp\htdocs\yii\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 H:\portable\xampp\htdocs\yii\db\ar\CActiveRecord.php(1291): CDbCommand->queryAll()
+#2 H:\portable\xampp\htdocs\yii\db\ar\CActiveRecord.php(1410): CActiveRecord->query(Object(CDbCriteria), true)
+#3 H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php(69): CActiveRecord->findAll(Object(CDbCriteria))
+#4 [internal function]: SiteController->actionGallery('1')
+#5 H:\portable\xampp\htdocs\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#6 H:\portable\xampp\htdocs\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#7 H:\portable\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 H:\portable\xampp\htdocs\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#9 H:\portable\xampp\htdocs\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 H:\portable\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('gallery')
+#11 H:\portable\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('site/gallery')
+#12 H:\portable\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#13 H:\portable\xampp\htdocs\sample\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/sample/index.php?r=site/gallery&page=1
+---
+2012/10/20 13:15:15 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY000]: General error: 25 bind or column index out of range. The SQL statement executed was: SELECT * FROM 'tbl_images' 't'.
+in H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php (69)
+in H:\portable\xampp\htdocs\sample\index.php (13)
+2012/10/20 13:15:15 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 25 bind or column index out of range. The SQL statement executed was: SELECT * FROM 'tbl_images' 't'' in H:\portable\xampp\htdocs\yii\db\CDbCommand.php:528
+Stack trace:
+#0 H:\portable\xampp\htdocs\yii\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 H:\portable\xampp\htdocs\yii\db\ar\CActiveRecord.php(1291): CDbCommand->queryAll()
+#2 H:\portable\xampp\htdocs\yii\db\ar\CActiveRecord.php(1410): CActiveRecord->query(Object(CDbCriteria), true)
+#3 H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php(69): CActiveRecord->findAll(Object(CDbCriteria))
+#4 [internal function]: SiteController->actionGallery('1')
+#5 H:\portable\xampp\htdocs\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#6 H:\portable\xampp\htdocs\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#7 H:\portable\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 H:\portable\xampp\htdocs\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#9 H:\portable\xampp\htdocs\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 H:\portable\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('gallery')
+#11 H:\portable\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('site/gallery')
+#12 H:\portable\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#13 H:\portable\xampp\htdocs\sample\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/sample/index.php?r=site/gallery&page=1
+---
+2012/10/20 13:16:30 [error] [system.db.CDbCommand] Error in preparing SQL: SELECT * FROM 'tbl_images' 't' OFFSET 1
+in H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php (71)
+in H:\portable\xampp\htdocs\sample\index.php (13)
+2012/10/20 13:16:30 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 near "OFFSET": syntax error. The SQL statement executed was: SELECT * FROM 'tbl_images' 't' OFFSET 1.
+in H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php (71)
+in H:\portable\xampp\htdocs\sample\index.php (13)
+2012/10/20 13:16:30 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 near "OFFSET": syntax error. The SQL statement executed was: SELECT * FROM 'tbl_images' 't' OFFSET 1' in H:\portable\xampp\htdocs\yii\db\CDbCommand.php:528
+Stack trace:
+#0 H:\portable\xampp\htdocs\yii\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 H:\portable\xampp\htdocs\yii\db\ar\CActiveRecord.php(1291): CDbCommand->queryAll()
+#2 H:\portable\xampp\htdocs\yii\db\ar\CActiveRecord.php(1410): CActiveRecord->query(Object(CDbCriteria), true)
+#3 H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php(71): CActiveRecord->findAll(Object(CDbCriteria))
+#4 [internal function]: SiteController->actionGallery('1')
+#5 H:\portable\xampp\htdocs\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#6 H:\portable\xampp\htdocs\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#7 H:\portable\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 H:\portable\xampp\htdocs\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#9 H:\portable\xampp\htdocs\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 H:\portable\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('gallery')
+#11 H:\portable\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('site/gallery')
+#12 H:\portable\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#13 H:\portable\xampp\htdocs\sample\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/sample/index.php?r=site/gallery&page=1
+---
+2012/10/20 13:20:18 [error] [system.db.CDbCommand] Error in preparing SQL: TEST
+in H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php (69)
+in H:\portable\xampp\htdocs\sample\index.php (13)
+2012/10/20 13:20:18 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 near "TEST": syntax error. The SQL statement executed was: TEST.
+in H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php (69)
+in H:\portable\xampp\htdocs\sample\index.php (13)
+2012/10/20 13:20:18 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 near "TEST": syntax error. The SQL statement executed was: TEST' in H:\portable\xampp\htdocs\yii\db\CDbCommand.php:528
+Stack trace:
+#0 H:\portable\xampp\htdocs\yii\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 H:\portable\xampp\htdocs\yii\db\ar\CActiveRecord.php(1521): CDbCommand->queryAll()
+#2 H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php(69): CActiveRecord->findAllBySql('TEST')
+#3 [internal function]: SiteController->actionGallery('1')
+#4 H:\portable\xampp\htdocs\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#5 H:\portable\xampp\htdocs\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#6 H:\portable\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#7 H:\portable\xampp\htdocs\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#8 H:\portable\xampp\htdocs\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 H:\portable\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('gallery')
+#10 H:\portable\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('site/gallery')
+#11 H:\portable\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#12 H:\portable\xampp\htdocs\sample\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/sample/index.php?r=site/gallery&page=1
+---
+2012/10/20 13:20:30 [error] [system.db.CDbCommand] Error in preparing SQL: SELECT * FROM 'tbl_images' 't' OFFSET 1
+in H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php (72)
+in H:\portable\xampp\htdocs\sample\index.php (13)
+2012/10/20 13:20:30 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 near "OFFSET": syntax error. The SQL statement executed was: SELECT * FROM 'tbl_images' 't' OFFSET 1.
+in H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php (72)
+in H:\portable\xampp\htdocs\sample\index.php (13)
+2012/10/20 13:20:30 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 near "OFFSET": syntax error. The SQL statement executed was: SELECT * FROM 'tbl_images' 't' OFFSET 1' in H:\portable\xampp\htdocs\yii\db\CDbCommand.php:528
+Stack trace:
+#0 H:\portable\xampp\htdocs\yii\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 H:\portable\xampp\htdocs\yii\db\ar\CActiveRecord.php(1291): CDbCommand->queryAll()
+#2 H:\portable\xampp\htdocs\yii\db\ar\CActiveRecord.php(1410): CActiveRecord->query(Object(CDbCriteria), true)
+#3 H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php(72): CActiveRecord->findAll(Object(CDbCriteria))
+#4 [internal function]: SiteController->actionGallery('1')
+#5 H:\portable\xampp\htdocs\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#6 H:\portable\xampp\htdocs\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#7 H:\portable\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 H:\portable\xampp\htdocs\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#9 H:\portable\xampp\htdocs\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 H:\portable\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('gallery')
+#11 H:\portable\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('site/gallery')
+#12 H:\portable\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#13 H:\portable\xampp\htdocs\sample\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/sample/index.php?r=site/gallery&page=1
+---
+2012/10/20 13:21:19 [error] [system.db.CDbCommand] Error in preparing SQL: SELECT * FROM 'tbl_images' 't' OFFSET 1
+in H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php (69)
+in H:\portable\xampp\htdocs\sample\index.php (13)
+2012/10/20 13:21:19 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 near "OFFSET": syntax error. The SQL statement executed was: SELECT * FROM 'tbl_images' 't' OFFSET 1.
+in H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php (69)
+in H:\portable\xampp\htdocs\sample\index.php (13)
+2012/10/20 13:21:19 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 near "OFFSET": syntax error. The SQL statement executed was: SELECT * FROM 'tbl_images' 't' OFFSET 1' in H:\portable\xampp\htdocs\yii\db\CDbCommand.php:528
+Stack trace:
+#0 H:\portable\xampp\htdocs\yii\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 H:\portable\xampp\htdocs\yii\db\ar\CActiveRecord.php(1521): CDbCommand->queryAll()
+#2 H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php(69): CActiveRecord->findAllBySql('SELECT * FROM '...')
+#3 [internal function]: SiteController->actionGallery('1')
+#4 H:\portable\xampp\htdocs\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#5 H:\portable\xampp\htdocs\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#6 H:\portable\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#7 H:\portable\xampp\htdocs\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#8 H:\portable\xampp\htdocs\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 H:\portable\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('gallery')
+#10 H:\portable\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('site/gallery')
+#11 H:\portable\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#12 H:\portable\xampp\htdocs\sample\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/sample/index.php?r=site/gallery&page=1
+---
+2012/10/20 13:21:21 [error] [system.db.CDbCommand] Error in preparing SQL: SELECT * FROM 'tbl_images' 't' OFFSET 1
+in H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php (69)
+in H:\portable\xampp\htdocs\sample\index.php (13)
+2012/10/20 13:21:21 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 near "OFFSET": syntax error. The SQL statement executed was: SELECT * FROM 'tbl_images' 't' OFFSET 1.
+in H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php (69)
+in H:\portable\xampp\htdocs\sample\index.php (13)
+2012/10/20 13:21:21 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 near "OFFSET": syntax error. The SQL statement executed was: SELECT * FROM 'tbl_images' 't' OFFSET 1' in H:\portable\xampp\htdocs\yii\db\CDbCommand.php:528
+Stack trace:
+#0 H:\portable\xampp\htdocs\yii\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 H:\portable\xampp\htdocs\yii\db\ar\CActiveRecord.php(1521): CDbCommand->queryAll()
+#2 H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php(69): CActiveRecord->findAllBySql('SELECT * FROM '...')
+#3 [internal function]: SiteController->actionGallery('1')
+#4 H:\portable\xampp\htdocs\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#5 H:\portable\xampp\htdocs\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#6 H:\portable\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#7 H:\portable\xampp\htdocs\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#8 H:\portable\xampp\htdocs\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 H:\portable\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('gallery')
+#10 H:\portable\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('site/gallery')
+#11 H:\portable\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#12 H:\portable\xampp\htdocs\sample\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/sample/index.php?r=site/gallery&page=1
+---
+2012/10/20 13:21:31 [error] [php] Creating default object from empty value (H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php:71)
+Stack trace:
+#0 H:\portable\xampp\htdocs\yii\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#1 H:\portable\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams()
+#2 H:\portable\xampp\htdocs\yii\web\CController.php(287): SiteController->runAction()
+#3 H:\portable\xampp\htdocs\yii\web\CController.php(266): SiteController->runActionWithFilters()
+#4 H:\portable\xampp\htdocs\yii\web\CWebApplication.php(283): SiteController->run()
+#5 H:\portable\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#6 H:\portable\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#7 H:\portable\xampp\htdocs\sample\index.php(13): CWebApplication->run()
+REQUEST_URI=/sample/index.php?r=site/gallery&page=1
+in H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php (71)
+in H:\portable\xampp\htdocs\sample\index.php (13)
+2012/10/20 13:49:01 [error] [system.db.CDbCommand] Error in preparing SQL: SELECT * FROM 'tbl_images' 't' WHERE attributes LIKE %pszczolki% LIMIT 7 OFFSET 0
+in H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php (70)
+in H:\portable\xampp\htdocs\sample\index.php (13)
+2012/10/20 13:49:01 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 near "%": syntax error. The SQL statement executed was: SELECT * FROM 'tbl_images' 't' WHERE attributes LIKE %pszczolki% LIMIT 7 OFFSET 0.
+in H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php (70)
+in H:\portable\xampp\htdocs\sample\index.php (13)
+2012/10/20 13:49:01 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 near "%": syntax error. The SQL statement executed was: SELECT * FROM 'tbl_images' 't' WHERE attributes LIKE %pszczolki% LIMIT 7 OFFSET 0' in H:\portable\xampp\htdocs\yii\db\CDbCommand.php:528
+Stack trace:
+#0 H:\portable\xampp\htdocs\yii\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 H:\portable\xampp\htdocs\yii\db\ar\CActiveRecord.php(1521): CDbCommand->queryAll()
+#2 H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php(70): CActiveRecord->findAllBySql('SELECT * FROM '...')
+#3 [internal function]: SiteController->actionGallery('1')
+#4 H:\portable\xampp\htdocs\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#5 H:\portable\xampp\htdocs\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#6 H:\portable\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#7 H:\portable\xampp\htdocs\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#8 H:\portable\xampp\htdocs\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 H:\portable\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('gallery')
+#10 H:\portable\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('site/gallery')
+#11 H:\portable\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#12 H:\portable\xampp\htdocs\sample\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/sample/index.php?r=site/gallery&page=1
+HTTP_REFERER=http://localhost/sample/index.php?r=site/gallery&page=2
+---
+2012/10/20 14:01:18 [error] [system.db.CDbCommand] Error in preparing SQL: SELECT * FROM 'tbl_images' 't' WHERE attributes REGEXP '*bied*' LIMIT 8 OFFSET 0
+in H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php (70)
+in H:\portable\xampp\htdocs\sample\index.php (13)
+2012/10/20 14:01:18 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such function: REGEXP. The SQL statement executed was: SELECT * FROM 'tbl_images' 't' WHERE attributes REGEXP '*bied*' LIMIT 8 OFFSET 0.
+in H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php (70)
+in H:\portable\xampp\htdocs\sample\index.php (13)
+2012/10/20 14:01:18 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such function: REGEXP. The SQL statement executed was: SELECT * FROM 'tbl_images' 't' WHERE attributes REGEXP '*bied*' LIMIT 8 OFFSET 0' in H:\portable\xampp\htdocs\yii\db\CDbCommand.php:528
+Stack trace:
+#0 H:\portable\xampp\htdocs\yii\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 H:\portable\xampp\htdocs\yii\db\ar\CActiveRecord.php(1521): CDbCommand->queryAll()
+#2 H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php(70): CActiveRecord->findAllBySql('SELECT * FROM '...')
+#3 [internal function]: SiteController->actionGallery('1')
+#4 H:\portable\xampp\htdocs\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#5 H:\portable\xampp\htdocs\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#6 H:\portable\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#7 H:\portable\xampp\htdocs\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#8 H:\portable\xampp\htdocs\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 H:\portable\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('gallery')
+#10 H:\portable\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('site/gallery')
+#11 H:\portable\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#12 H:\portable\xampp\htdocs\sample\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/sample/index.php?r=site/gallery&page=1
+HTTP_REFERER=http://localhost/sample/index.php?r=site/gallery&page=2
+---
+2012/10/20 14:03:19 [error] [system.db.CDbCommand] Error in preparing SQL: SELECT * FROM 'tbl_images' 't' WHERE ESCAPE '@' attributes GLOB '*bied[r,@,]*' LIMIT 8 OFFSET 0
+in H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php (70)
+in H:\portable\xampp\htdocs\sample\index.php (13)
+2012/10/20 14:03:19 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 near "ESCAPE": syntax error. The SQL statement executed was: SELECT * FROM 'tbl_images' 't' WHERE ESCAPE '@' attributes GLOB '*bied[r,@,]*' LIMIT 8 OFFSET 0.
+in H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php (70)
+in H:\portable\xampp\htdocs\sample\index.php (13)
+2012/10/20 14:03:19 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 near "ESCAPE": syntax error. The SQL statement executed was: SELECT * FROM 'tbl_images' 't' WHERE ESCAPE '@' attributes GLOB '*bied[r,@,]*' LIMIT 8 OFFSET 0' in H:\portable\xampp\htdocs\yii\db\CDbCommand.php:528
+Stack trace:
+#0 H:\portable\xampp\htdocs\yii\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 H:\portable\xampp\htdocs\yii\db\ar\CActiveRecord.php(1521): CDbCommand->queryAll()
+#2 H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php(70): CActiveRecord->findAllBySql('SELECT * FROM '...')
+#3 [internal function]: SiteController->actionGallery('1')
+#4 H:\portable\xampp\htdocs\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#5 H:\portable\xampp\htdocs\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#6 H:\portable\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#7 H:\portable\xampp\htdocs\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#8 H:\portable\xampp\htdocs\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 H:\portable\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('gallery')
+#10 H:\portable\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('site/gallery')
+#11 H:\portable\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#12 H:\portable\xampp\htdocs\sample\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/sample/index.php?r=site/gallery&page=1
+HTTP_REFERER=http://localhost/sample/index.php?r=site/gallery&page=2
+---
+2012/10/20 14:03:32 [error] [system.db.CDbCommand] Error in preparing SQL: SELECT * FROM 'tbl_images' 't' WHERE attributes GLOB '*bied[r,@,]*' ESCAPE '@' LIMIT 8 OFFSET 0
+in H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php (70)
+in H:\portable\xampp\htdocs\sample\index.php (13)
+2012/10/20 14:03:32 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 wrong number of arguments to function GLOB(). The SQL statement executed was: SELECT * FROM 'tbl_images' 't' WHERE attributes GLOB '*bied[r,@,]*' ESCAPE '@' LIMIT 8 OFFSET 0.
+in H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php (70)
+in H:\portable\xampp\htdocs\sample\index.php (13)
+2012/10/20 14:03:32 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 wrong number of arguments to function GLOB(). The SQL statement executed was: SELECT * FROM 'tbl_images' 't' WHERE attributes GLOB '*bied[r,@,]*' ESCAPE '@' LIMIT 8 OFFSET 0' in H:\portable\xampp\htdocs\yii\db\CDbCommand.php:528
+Stack trace:
+#0 H:\portable\xampp\htdocs\yii\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 H:\portable\xampp\htdocs\yii\db\ar\CActiveRecord.php(1521): CDbCommand->queryAll()
+#2 H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php(70): CActiveRecord->findAllBySql('SELECT * FROM '...')
+#3 [internal function]: SiteController->actionGallery('1')
+#4 H:\portable\xampp\htdocs\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#5 H:\portable\xampp\htdocs\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#6 H:\portable\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#7 H:\portable\xampp\htdocs\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#8 H:\portable\xampp\htdocs\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 H:\portable\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('gallery')
+#10 H:\portable\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('site/gallery')
+#11 H:\portable\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#12 H:\portable\xampp\htdocs\sample\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/sample/index.php?r=site/gallery&page=1
+HTTP_REFERER=http://localhost/sample/index.php?r=site/gallery&page=2
+---
+2012/10/20 14:03:34 [error] [system.db.CDbCommand] Error in preparing SQL: SELECT * FROM 'tbl_images' 't' WHERE attributes GLOB '*bied[r,@,]*' ESCAPE '@' LIMIT 8 OFFSET 0
+in H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php (70)
+in H:\portable\xampp\htdocs\sample\index.php (13)
+2012/10/20 14:03:34 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 wrong number of arguments to function GLOB(). The SQL statement executed was: SELECT * FROM 'tbl_images' 't' WHERE attributes GLOB '*bied[r,@,]*' ESCAPE '@' LIMIT 8 OFFSET 0.
+in H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php (70)
+in H:\portable\xampp\htdocs\sample\index.php (13)
+2012/10/20 14:03:34 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 wrong number of arguments to function GLOB(). The SQL statement executed was: SELECT * FROM 'tbl_images' 't' WHERE attributes GLOB '*bied[r,@,]*' ESCAPE '@' LIMIT 8 OFFSET 0' in H:\portable\xampp\htdocs\yii\db\CDbCommand.php:528
+Stack trace:
+#0 H:\portable\xampp\htdocs\yii\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 H:\portable\xampp\htdocs\yii\db\ar\CActiveRecord.php(1521): CDbCommand->queryAll()
+#2 H:\portable\xampp\htdocs\sample\protected\controllers\SiteController.php(70): CActiveRecord->findAllBySql('SELECT * FROM '...')
+#3 [internal function]: SiteController->actionGallery('1')
+#4 H:\portable\xampp\htdocs\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#5 H:\portable\xampp\htdocs\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#6 H:\portable\xampp\htdocs\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#7 H:\portable\xampp\htdocs\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#8 H:\portable\xampp\htdocs\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 H:\portable\xampp\htdocs\yii\web\CWebApplication.php(283): CController->run('gallery')
+#10 H:\portable\xampp\htdocs\yii\web\CWebApplication.php(142): CWebApplication->runController('site/gallery')
+#11 H:\portable\xampp\htdocs\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#12 H:\portable\xampp\htdocs\sample\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/sample/index.php?r=site/gallery&page=1
+HTTP_REFERER=http://localhost/sample/index.php?r=site/gallery&page=2
+---
+2012/10/23 19:56:06 [error] [php] Missing argument 2 for CClientScript::registerScript(), called in G:\portable\xampp\htdocs\protected\components\OrbitWidget.php on line 18 and defined (G:\portable\xampp\yii\web\CClientScript.php:619)
+Stack trace:
+#0 G:\portable\xampp\yii\web\CBaseController.php(174): OrbitWidget->run()
+#1 G:\portable\xampp\htdocs\protected\views\site\index.php(53): SiteController->widget()
+#2 G:\portable\xampp\yii\web\CBaseController.php(127): require()
+#3 G:\portable\xampp\yii\web\CBaseController.php(96): SiteController->renderInternal()
+#4 G:\portable\xampp\yii\web\CController.php(870): SiteController->renderFile()
+#5 G:\portable\xampp\yii\web\CController.php(783): SiteController->renderPartial()
+#6 G:\portable\xampp\htdocs\protected\controllers\SiteController.php(36): SiteController->render()
+#7 G:\portable\xampp\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#8 G:\portable\xampp\yii\web\CController.php(309): CInlineAction->runWithParams()
+#9 G:\portable\xampp\yii\web\CController.php(287): SiteController->runAction()
+#10 G:\portable\xampp\yii\web\CController.php(266): SiteController->runActionWithFilters()
+#11 G:\portable\xampp\yii\web\CWebApplication.php(283): SiteController->run()
+#12 G:\portable\xampp\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#13 G:\portable\xampp\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#14 G:\portable\xampp\htdocs\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/index
+in G:\portable\xampp\htdocs\protected\components\OrbitWidget.php (18)
+in G:\portable\xampp\htdocs\protected\components\OrbitWidget.php (7)
+in G:\portable\xampp\htdocs\protected\views\site\index.php (53)
+2012/10/27 11:52:05 [error] [system.db.CDbCommand] Error in preparing SQL: SELECT COUNT(*) FROM 'tbl_images' 't' WHERE attributes LIKE '%biedronki%
+in H:\portable\xampp\htdocs\protected\controllers\SiteController.php (74)
+in H:\portable\xampp\htdocs\index.php (13)
+2012/10/27 11:52:05 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 unrecognized token: "'%biedronki%". The SQL statement executed was: SELECT COUNT(*) FROM 'tbl_images' 't' WHERE attributes LIKE '%biedronki%.
+in H:\portable\xampp\htdocs\protected\controllers\SiteController.php (74)
+in H:\portable\xampp\htdocs\index.php (13)
+2012/10/27 11:52:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 unrecognized token: "'%biedronki%". The SQL statement executed was: SELECT COUNT(*) FROM 'tbl_images' 't' WHERE attributes LIKE '%biedronki%' in H:\portable\xampp\yii\db\CDbCommand.php:528
+Stack trace:
+#0 H:\portable\xampp\yii\db\CDbCommand.php(425): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 H:\portable\xampp\yii\db\ar\CActiveRecord.php(1540): CDbCommand->queryScalar()
+#2 H:\portable\xampp\htdocs\protected\controllers\SiteController.php(74): CActiveRecord->count(Object(CDbCriteria))
+#3 [internal function]: SiteController->actionGallery('1')
+#4 H:\portable\xampp\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#5 H:\portable\xampp\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#6 H:\portable\xampp\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#7 H:\portable\xampp\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#8 H:\portable\xampp\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 H:\portable\xampp\yii\web\CWebApplication.php(283): CController->run('gallery')
+#10 H:\portable\xampp\yii\web\CWebApplication.php(142): CWebApplication->runController('site/gallery')
+#11 H:\portable\xampp\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#12 H:\portable\xampp\htdocs\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/index.php?r=site/gallery&page=1
+HTTP_REFERER=http://localhost/index.php?r=site/gallery&page=2
+---
+2012/10/27 11:52:35 [error] [exception.CException] exception 'CException' with message 'Property "CLinkPager.page" is not defined.' in H:\portable\xampp\yii\base\CComponent.php:174
+Stack trace:
+#0 H:\portable\xampp\yii\web\CWidgetFactory.php(162): CComponent->__set('page', Object(CPagination))
+#1 H:\portable\xampp\yii\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(SiteController), 'CLinkPager', Array)
+#2 H:\portable\xampp\yii\web\CBaseController.php(173): CBaseController->createWidget('CLinkPager', Array)
+#3 H:\portable\xampp\htdocs\protected\views\site\gallery.php(54): CBaseController->widget('CLinkPager', Array)
+#4 H:\portable\xampp\yii\web\CBaseController.php(127): require('H:\portable\xam...')
+#5 H:\portable\xampp\yii\web\CBaseController.php(96): CBaseController->renderInternal('H:\portable\xam...', Array, true)
+#6 H:\portable\xampp\yii\web\CController.php(870): CBaseController->renderFile('H:\portable\xam...', Array, true)
+#7 H:\portable\xampp\yii\web\CController.php(783): CController->renderPartial('gallery', Array, true)
+#8 H:\portable\xampp\htdocs\protected\controllers\SiteController.php(85): CController->render('gallery', Array)
+#9 [internal function]: SiteController->actionGallery('1')
+#10 H:\portable\xampp\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#11 H:\portable\xampp\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#12 H:\portable\xampp\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 H:\portable\xampp\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#14 H:\portable\xampp\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 H:\portable\xampp\yii\web\CWebApplication.php(283): CController->run('gallery')
+#16 H:\portable\xampp\yii\web\CWebApplication.php(142): CWebApplication->runController('site/gallery')
+#17 H:\portable\xampp\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#18 H:\portable\xampp\htdocs\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/index.php?r=site/gallery&page=1
+HTTP_REFERER=http://localhost/index.php?r=site/gallery&page=2
+---
+2012/10/27 12:19:43 [error] [exception.CException] exception 'CException' with message 'Property "CLinkPager.prevPageCssClass" is not defined.' in H:\portable\xampp\yii\base\CComponent.php:174
+Stack trace:
+#0 H:\portable\xampp\yii\web\CWidgetFactory.php(162): CComponent->__set('prevPageCssClas...', 'arrow')
+#1 H:\portable\xampp\yii\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(SiteController), 'CLinkPager', Array)
+#2 H:\portable\xampp\yii\web\CBaseController.php(173): CBaseController->createWidget('CLinkPager', Array)
+#3 H:\portable\xampp\htdocs\protected\views\site\gallery.php(39): CBaseController->widget('CLinkPager', Array)
+#4 H:\portable\xampp\yii\web\CBaseController.php(127): require('H:\portable\xam...')
+#5 H:\portable\xampp\yii\web\CBaseController.php(96): CBaseController->renderInternal('H:\portable\xam...', Array, true)
+#6 H:\portable\xampp\yii\web\CController.php(870): CBaseController->renderFile('H:\portable\xam...', Array, true)
+#7 H:\portable\xampp\yii\web\CController.php(783): CController->renderPartial('gallery', Array, true)
+#8 H:\portable\xampp\htdocs\protected\controllers\SiteController.php(85): CController->render('gallery', Array)
+#9 [internal function]: SiteController->actionGallery(1)
+#10 H:\portable\xampp\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#11 H:\portable\xampp\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#12 H:\portable\xampp\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 H:\portable\xampp\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#14 H:\portable\xampp\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 H:\portable\xampp\yii\web\CWebApplication.php(283): CController->run('gallery')
+#16 H:\portable\xampp\yii\web\CWebApplication.php(142): CWebApplication->runController('site/gallery')
+#17 H:\portable\xampp\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#18 H:\portable\xampp\htdocs\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/index.php?r=site/gallery
+HTTP_REFERER=http://localhost/index.php?r=site/gallery&page=2
+---
+2012/10/27 12:43:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in H:\portable\xampp\yii\web\CController.php:484
+Stack trace:
+#0 H:\portable\xampp\yii\web\CController.php(271): CController->missingAction('css')
+#1 H:\portable\xampp\yii\web\CWebApplication.php(283): CController->run('css')
+#2 H:\portable\xampp\yii\web\CWebApplication.php(142): CWebApplication->runController('site/css/founda...')
+#3 H:\portable\xampp\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 H:\portable\xampp\htdocs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/foundation.min.css
+HTTP_REFERER=http://localhost/index.php/site/gallery
+---
+2012/10/27 12:43:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in H:\portable\xampp\yii\web\CController.php:484
+Stack trace:
+#0 H:\portable\xampp\yii\web\CController.php(271): CController->missingAction('css')
+#1 H:\portable\xampp\yii\web\CWebApplication.php(283): CController->run('css')
+#2 H:\portable\xampp\yii\web\CWebApplication.php(142): CWebApplication->runController('site/css/app.cs...')
+#3 H:\portable\xampp\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 H:\portable\xampp\htdocs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/app.css?ver=1351334627
+HTTP_REFERER=http://localhost/index.php/site/gallery
+---
+2012/10/27 12:43:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "scripts".' in H:\portable\xampp\yii\web\CController.php:484
+Stack trace:
+#0 H:\portable\xampp\yii\web\CController.php(271): CController->missingAction('scripts')
+#1 H:\portable\xampp\yii\web\CWebApplication.php(283): CController->run('scripts')
+#2 H:\portable\xampp\yii\web\CWebApplication.php(142): CWebApplication->runController('site/scripts/jq...')
+#3 H:\portable\xampp\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 H:\portable\xampp\htdocs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/scripts/jquery.js
+HTTP_REFERER=http://localhost/index.php/site/gallery
+---
+2012/10/27 12:43:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "scripts".' in H:\portable\xampp\yii\web\CController.php:484
+Stack trace:
+#0 H:\portable\xampp\yii\web\CController.php(271): CController->missingAction('scripts')
+#1 H:\portable\xampp\yii\web\CWebApplication.php(283): CController->run('scripts')
+#2 H:\portable\xampp\yii\web\CWebApplication.php(142): CWebApplication->runController('site/scripts/mo...')
+#3 H:\portable\xampp\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 H:\portable\xampp\htdocs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/scripts/modernizr.foundation.js
+HTTP_REFERER=http://localhost/index.php/site/gallery
+---
+2012/10/27 12:43:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in H:\portable\xampp\yii\web\CController.php:484
+Stack trace:
+#0 H:\portable\xampp\yii\web\CController.php(271): CController->missingAction('css')
+#1 H:\portable\xampp\yii\web\CWebApplication.php(283): CController->run('css')
+#2 H:\portable\xampp\yii\web\CWebApplication.php(142): CWebApplication->runController('site/css/images...')
+#3 H:\portable\xampp\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 H:\portable\xampp\htdocs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/images/logo.png
+HTTP_REFERER=http://localhost/index.php/site/gallery
+---
+2012/10/27 12:43:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "scripts".' in H:\portable\xampp\yii\web\CController.php:484
+Stack trace:
+#0 H:\portable\xampp\yii\web\CController.php(271): CController->missingAction('scripts')
+#1 H:\portable\xampp\yii\web\CWebApplication.php(283): CController->run('scripts')
+#2 H:\portable\xampp\yii\web\CWebApplication.php(142): CWebApplication->runController('site/scripts/jq...')
+#3 H:\portable\xampp\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 H:\portable\xampp\htdocs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/scripts/jquery.js
+HTTP_REFERER=http://localhost/index.php/site/gallery
+---
+2012/10/27 12:43:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "scripts".' in H:\portable\xampp\yii\web\CController.php:484
+Stack trace:
+#0 H:\portable\xampp\yii\web\CController.php(271): CController->missingAction('scripts')
+#1 H:\portable\xampp\yii\web\CWebApplication.php(283): CController->run('scripts')
+#2 H:\portable\xampp\yii\web\CWebApplication.php(142): CWebApplication->runController('site/scripts/mo...')
+#3 H:\portable\xampp\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 H:\portable\xampp\htdocs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/scripts/modernizr.foundation.js
+HTTP_REFERER=http://localhost/index.php/site/gallery
+---
+2012/10/27 12:43:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in H:\portable\xampp\yii\web\CController.php:484
+Stack trace:
+#0 H:\portable\xampp\yii\web\CController.php(271): CController->missingAction('css')
+#1 H:\portable\xampp\yii\web\CWebApplication.php(283): CController->run('css')
+#2 H:\portable\xampp\yii\web\CWebApplication.php(142): CWebApplication->runController('site/css/founda...')
+#3 H:\portable\xampp\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 H:\portable\xampp\htdocs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/foundation.min.css
+HTTP_REFERER=http://localhost/index.php/site/gallery
+---
+2012/10/27 12:43:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in H:\portable\xampp\yii\web\CController.php:484
+Stack trace:
+#0 H:\portable\xampp\yii\web\CController.php(271): CController->missingAction('css')
+#1 H:\portable\xampp\yii\web\CWebApplication.php(283): CController->run('css')
+#2 H:\portable\xampp\yii\web\CWebApplication.php(142): CWebApplication->runController('site/css/app.cs...')
+#3 H:\portable\xampp\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 H:\portable\xampp\htdocs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/app.css?ver=1351334629
+HTTP_REFERER=http://localhost/index.php/site/gallery
+---
+2012/10/27 12:43:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in H:\portable\xampp\yii\web\CController.php:484
+Stack trace:
+#0 H:\portable\xampp\yii\web\CController.php(271): CController->missingAction('css')
+#1 H:\portable\xampp\yii\web\CWebApplication.php(283): CController->run('css')
+#2 H:\portable\xampp\yii\web\CWebApplication.php(142): CWebApplication->runController('site/css/images...')
+#3 H:\portable\xampp\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 H:\portable\xampp\htdocs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/images/logo.png
+HTTP_REFERER=http://localhost/index.php/site/gallery
+---
+2012/10/27 12:44:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in H:\portable\xampp\yii\web\CController.php:484
+Stack trace:
+#0 H:\portable\xampp\yii\web\CController.php(271): CController->missingAction('css')
+#1 H:\portable\xampp\yii\web\CWebApplication.php(283): CController->run('css')
+#2 H:\portable\xampp\yii\web\CWebApplication.php(142): CWebApplication->runController('site/css/founda...')
+#3 H:\portable\xampp\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 H:\portable\xampp\htdocs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/foundation.min.css
+HTTP_REFERER=http://localhost/index.php/site/index
+---
+2012/10/27 12:44:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in H:\portable\xampp\yii\web\CController.php:484
+Stack trace:
+#0 H:\portable\xampp\yii\web\CController.php(271): CController->missingAction('css')
+#1 H:\portable\xampp\yii\web\CWebApplication.php(283): CController->run('css')
+#2 H:\portable\xampp\yii\web\CWebApplication.php(142): CWebApplication->runController('site/css/app.cs...')
+#3 H:\portable\xampp\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 H:\portable\xampp\htdocs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/app.css?ver=1351334640
+HTTP_REFERER=http://localhost/index.php/site/index
+---
+2012/10/27 12:44:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "scripts".' in H:\portable\xampp\yii\web\CController.php:484
+Stack trace:
+#0 H:\portable\xampp\yii\web\CController.php(271): CController->missingAction('scripts')
+#1 H:\portable\xampp\yii\web\CWebApplication.php(283): CController->run('scripts')
+#2 H:\portable\xampp\yii\web\CWebApplication.php(142): CWebApplication->runController('site/scripts/mo...')
+#3 H:\portable\xampp\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 H:\portable\xampp\htdocs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/scripts/modernizr.foundation.js
+HTTP_REFERER=http://localhost/index.php/site/index
+---
+2012/10/27 12:44:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "scripts".' in H:\portable\xampp\yii\web\CController.php:484
+Stack trace:
+#0 H:\portable\xampp\yii\web\CController.php(271): CController->missingAction('scripts')
+#1 H:\portable\xampp\yii\web\CWebApplication.php(283): CController->run('scripts')
+#2 H:\portable\xampp\yii\web\CWebApplication.php(142): CWebApplication->runController('site/scripts/jq...')
+#3 H:\portable\xampp\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 H:\portable\xampp\htdocs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/scripts/jquery.js
+HTTP_REFERER=http://localhost/index.php/site/index
+---
+2012/10/27 12:44:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in H:\portable\xampp\yii\web\CController.php:484
+Stack trace:
+#0 H:\portable\xampp\yii\web\CController.php(271): CController->missingAction('css')
+#1 H:\portable\xampp\yii\web\CWebApplication.php(283): CController->run('css')
+#2 H:\portable\xampp\yii\web\CWebApplication.php(142): CWebApplication->runController('site/css/images...')
+#3 H:\portable\xampp\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 H:\portable\xampp\htdocs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/images/bear.png
+HTTP_REFERER=http://localhost/index.php/site/index
+---
+2012/10/27 12:44:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in H:\portable\xampp\yii\web\CController.php:484
+Stack trace:
+#0 H:\portable\xampp\yii\web\CController.php(271): CController->missingAction('css')
+#1 H:\portable\xampp\yii\web\CWebApplication.php(283): CController->run('css')
+#2 H:\portable\xampp\yii\web\CWebApplication.php(142): CWebApplication->runController('site/css/images...')
+#3 H:\portable\xampp\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 H:\portable\xampp\htdocs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/images/logo.png
+HTTP_REFERER=http://localhost/index.php/site/index
+---
+2012/11/17 12:35:18 [error] [exception.CException] exception 'CException' with message 'The asset "G:\portable\xampp\htdocs\protected\scripts" to be published does not exist.' in G:\portable\xampp\yii\web\CAssetManager.php:255
+Stack trace:
+#0 G:\portable\xampp\htdocs\protected\views\site\pages\info.php(3): CAssetManager->publish('G:\portable\xam...')
+#1 G:\portable\xampp\yii\web\CBaseController.php(127): require('G:\portable\xam...')
+#2 G:\portable\xampp\yii\web\CBaseController.php(96): CBaseController->renderInternal('G:\portable\xam...', NULL, true)
+#3 G:\portable\xampp\yii\web\CController.php(870): CBaseController->renderFile('G:\portable\xam...', NULL, true)
+#4 G:\portable\xampp\yii\web\CController.php(783): CController->renderPartial('pages/info', NULL, true)
+#5 G:\portable\xampp\yii\web\actions\CViewAction.php(141): CController->render('pages/info')
+#6 G:\portable\xampp\yii\web\actions\CAction.php(75): CViewAction->run()
+#7 G:\portable\xampp\yii\web\CController.php(309): CAction->runWithParams(Array)
+#8 G:\portable\xampp\yii\web\CController.php(287): CController->runAction(Object(CViewAction))
+#9 G:\portable\xampp\yii\web\CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#10 G:\portable\xampp\yii\web\CWebApplication.php(283): CController->run('page')
+#11 G:\portable\xampp\yii\web\CWebApplication.php(142): CWebApplication->runController('site/page')
+#12 G:\portable\xampp\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#13 G:\portable\xampp\htdocs\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php?r=site/page&view=info
+HTTP_REFERER=http://localhost/index.php?r=site/index
+---
+2012/11/20 18:48:31 [error] [exception.CDbException] exception 'CDbException' with message 'The table "tbl_articles" for active record class "News" cannot be found in the database.' in G:\portable\xampp\yii\db\ar\CActiveRecord.php:2312
+Stack trace:
+#0 G:\portable\xampp\yii\db\ar\CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(News))
+#1 G:\portable\xampp\yii\db\ar\CActiveRecord.php(403): CActiveRecord::model('News')
+#2 G:\portable\xampp\yii\db\ar\CActiveRecord.php(78): CActiveRecord->getMetaData()
+#3 G:\portable\xampp\htdocs\protected\controllers\SiteController.php(31): CActiveRecord->__construct()
+#4 G:\portable\xampp\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#5 G:\portable\xampp\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 G:\portable\xampp\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 G:\portable\xampp\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 G:\portable\xampp\yii\web\CWebApplication.php(283): CController->run('index')
+#9 G:\portable\xampp\yii\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#10 G:\portable\xampp\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#11 G:\portable\xampp\htdocs\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=site/index
+HTTP_REFERER=http://localhost/index.php?r=site/page&view=info
+---
+2012/11/20 18:51:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "iarticle".' in G:\portable\xampp\yii\web\CController.php:484
+Stack trace:
+#0 G:\portable\xampp\yii\web\CController.php(271): CController->missingAction('iarticle')
+#1 G:\portable\xampp\yii\web\CWebApplication.php(283): CController->run('iarticle')
+#2 G:\portable\xampp\yii\web\CWebApplication.php(142): CWebApplication->runController('site/iarticle')
+#3 G:\portable\xampp\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 G:\portable\xampp\htdocs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/iarticle
+---
+2012/11/20 18:51:48 [error] [php] Missing argument 1 for CController::render(), called in G:\portable\xampp\htdocs\protected\controllers\SiteController.php on line 94 and defined (G:\portable\xampp\yii\web\CController.php:779)
+Stack trace:
+#0 G:\portable\xampp\yii\web\CController.php(309): CInlineAction->runWithParams()
+#1 G:\portable\xampp\yii\web\CController.php(287): SiteController->runAction()
+#2 G:\portable\xampp\yii\web\CController.php(266): SiteController->runActionWithFilters()
+#3 G:\portable\xampp\yii\web\CWebApplication.php(283): SiteController->run()
+#4 G:\portable\xampp\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#5 G:\portable\xampp\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#6 G:\portable\xampp\htdocs\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/article
+in G:\portable\xampp\htdocs\protected\controllers\SiteController.php (94)
+in G:\portable\xampp\htdocs\index.php (13)
+2012/11/20 19:53:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "article?name=test".' in G:\portable\xampp\yii\web\CController.php:484
+Stack trace:
+#0 G:\portable\xampp\yii\web\CController.php(271): CController->missingAction('article?name=te...')
+#1 G:\portable\xampp\yii\web\CWebApplication.php(283): CController->run('article?name=te...')
+#2 G:\portable\xampp\yii\web\CWebApplication.php(142): CWebApplication->runController('site/article?na...')
+#3 G:\portable\xampp\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 G:\portable\xampp\htdocs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/article?name=test
+---
+2012/11/24 12:35:26 [error] [system.db.CDbCommand] Error in preparing SQL: SELECT * FROM 'tbl_articles' 't' WHERE tags="news" ORDER BY date DESC LIMIT 2
+in G:\portable\xampp\htdocs\protected\controllers\SiteController.php (36)
+in G:\portable\xampp\htdocs\index.php (13)
+2012/11/24 12:35:26 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such column: date. The SQL statement executed was: SELECT * FROM 'tbl_articles' 't' WHERE tags="news" ORDER BY date DESC LIMIT 2.
+in G:\portable\xampp\htdocs\protected\controllers\SiteController.php (36)
+in G:\portable\xampp\htdocs\index.php (13)
+2012/11/24 12:35:26 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such column: date. The SQL statement executed was: SELECT * FROM 'tbl_articles' 't' WHERE tags="news" ORDER BY date DESC LIMIT 2' in G:\portable\xampp\yii\db\CDbCommand.php:528
+Stack trace:
+#0 G:\portable\xampp\yii\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 G:\portable\xampp\yii\db\ar\CActiveRecord.php(1291): CDbCommand->queryAll()
+#2 G:\portable\xampp\yii\db\ar\CActiveRecord.php(1410): CActiveRecord->query(Object(CDbCriteria), true)
+#3 G:\portable\xampp\htdocs\protected\controllers\SiteController.php(36): CActiveRecord->findAll(Object(CDbCriteria))
+#4 G:\portable\xampp\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#5 G:\portable\xampp\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 G:\portable\xampp\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 G:\portable\xampp\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 G:\portable\xampp\yii\web\CWebApplication.php(283): CController->run('')
+#9 G:\portable\xampp\yii\web\CWebApplication.php(142): CWebApplication->runController('')
+#10 G:\portable\xampp\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#11 G:\portable\xampp\htdocs\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php
+---
+2012/11/24 13:14:18 [error] [php] Undefined variable: article (G:\portable\xampp\htdocs\protected\components\ArticleWidget.php:9)
+Stack trace:
+#0 G:\portable\xampp\yii\web\CBaseController.php(127): require()
+#1 G:\portable\xampp\yii\web\CBaseController.php(96): SiteController->renderInternal()
+#2 G:\portable\xampp\yii\web\CController.php(870): SiteController->renderFile()
+#3 G:\portable\xampp\yii\web\CController.php(783): SiteController->renderPartial()
+#4 G:\portable\xampp\htdocs\protected\controllers\SiteController.php(34): SiteController->render()
+#5 G:\portable\xampp\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#6 G:\portable\xampp\yii\web\CController.php(309): CInlineAction->runWithParams()
+#7 G:\portable\xampp\yii\web\CController.php(287): SiteController->runAction()
+#8 G:\portable\xampp\yii\web\CController.php(266): SiteController->runActionWithFilters()
+#9 G:\portable\xampp\yii\web\CWebApplication.php(283): SiteController->run()
+#10 G:\portable\xampp\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#11 G:\portable\xampp\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#12 G:\portable\xampp\htdocs\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in G:\portable\xampp\htdocs\protected\components\ArticleWidget.php (9)
+in G:\portable\xampp\htdocs\protected\views\site\index.php (14)
+in G:\portable\xampp\htdocs\protected\controllers\SiteController.php (34)
+2012/11/24 13:18:46 [error] [php] Undefined variable: type (G:\portable\xampp\htdocs\protected\components\ArticleWidget.php:9)
+Stack trace:
+#0 G:\portable\xampp\yii\web\CBaseController.php(127): require()
+#1 G:\portable\xampp\yii\web\CBaseController.php(96): SiteController->renderInternal()
+#2 G:\portable\xampp\yii\web\CController.php(870): SiteController->renderFile()
+#3 G:\portable\xampp\yii\web\CController.php(783): SiteController->renderPartial()
+#4 G:\portable\xampp\htdocs\protected\controllers\SiteController.php(34): SiteController->render()
+#5 G:\portable\xampp\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#6 G:\portable\xampp\yii\web\CController.php(309): CInlineAction->runWithParams()
+#7 G:\portable\xampp\yii\web\CController.php(287): SiteController->runAction()
+#8 G:\portable\xampp\yii\web\CController.php(266): SiteController->runActionWithFilters()
+#9 G:\portable\xampp\yii\web\CWebApplication.php(283): SiteController->run()
+#10 G:\portable\xampp\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#11 G:\portable\xampp\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#12 G:\portable\xampp\htdocs\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in G:\portable\xampp\htdocs\protected\components\ArticleWidget.php (9)
+in G:\portable\xampp\htdocs\protected\views\site\index.php (4)
+in G:\portable\xampp\htdocs\protected\controllers\SiteController.php (34)
+2012/11/24 13:25:25 [error] [php] Undefined variable: articles (G:\portable\xampp\htdocs\protected\views\site\index.php:11)
+Stack trace:
+#0 G:\portable\xampp\yii\web\CController.php(870): SiteController->renderFile()
+#1 G:\portable\xampp\yii\web\CController.php(783): SiteController->renderPartial()
+#2 G:\portable\xampp\htdocs\protected\controllers\SiteController.php(34): SiteController->render()
+#3 G:\portable\xampp\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 G:\portable\xampp\yii\web\CController.php(309): CInlineAction->runWithParams()
+#5 G:\portable\xampp\yii\web\CController.php(287): SiteController->runAction()
+#6 G:\portable\xampp\yii\web\CController.php(266): SiteController->runActionWithFilters()
+#7 G:\portable\xampp\yii\web\CWebApplication.php(283): SiteController->run()
+#8 G:\portable\xampp\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#9 G:\portable\xampp\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#10 G:\portable\xampp\htdocs\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in G:\portable\xampp\htdocs\protected\views\site\index.php (11)
+in G:\portable\xampp\htdocs\protected\controllers\SiteController.php (34)
+in G:\portable\xampp\htdocs\index.php (13)
+2012/11/24 13:34:12 [error] [php] Undefined variable: query (G:\portable\xampp\htdocs\protected\components\ArticleWidget.php:17)
+Stack trace:
+#0 G:\portable\xampp\yii\web\CBaseController.php(127): require()
+#1 G:\portable\xampp\yii\web\CBaseController.php(96): SiteController->renderInternal()
+#2 G:\portable\xampp\yii\web\CController.php(870): SiteController->renderFile()
+#3 G:\portable\xampp\yii\web\CController.php(783): SiteController->renderPartial()
+#4 G:\portable\xampp\htdocs\protected\controllers\SiteController.php(28): SiteController->render()
+#5 G:\portable\xampp\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#6 G:\portable\xampp\yii\web\CController.php(309): CInlineAction->runWithParams()
+#7 G:\portable\xampp\yii\web\CController.php(287): SiteController->runAction()
+#8 G:\portable\xampp\yii\web\CController.php(266): SiteController->runActionWithFilters()
+#9 G:\portable\xampp\yii\web\CWebApplication.php(283): SiteController->run()
+#10 G:\portable\xampp\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#11 G:\portable\xampp\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#12 G:\portable\xampp\htdocs\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in G:\portable\xampp\htdocs\protected\components\ArticleWidget.php (17)
+in G:\portable\xampp\htdocs\protected\views\site\index.php (25)
+in G:\portable\xampp\htdocs\protected\controllers\SiteController.php (28)
+2012/11/24 13:41:02 [error] [php] Undefined variable: article (G:\portable\xampp\htdocs\protected\views\site\article.php:3)
+Stack trace:
+#0 G:\portable\xampp\yii\web\CController.php(870): SiteController->renderFile()
+#1 G:\portable\xampp\yii\web\CController.php(783): SiteController->renderPartial()
+#2 G:\portable\xampp\htdocs\protected\controllers\SiteController.php(84): SiteController->render()
+#3 unknown(0): SiteController->actionArticle()
+#4 G:\portable\xampp\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#5 G:\portable\xampp\yii\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#6 G:\portable\xampp\yii\web\CController.php(309): CInlineAction->runWithParams()
+#7 G:\portable\xampp\yii\web\CController.php(287): SiteController->runAction()
+#8 G:\portable\xampp\yii\web\CController.php(266): SiteController->runActionWithFilters()
+#9 G:\portable\xampp\yii\web\CWebApplication.php(283): SiteController->run()
+#10 G:\portable\xampp\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#11 G:\portable\xampp\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#12 G:\portable\xampp\htdocs\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/article
+in G:\portable\xampp\htdocs\protected\views\site\article.php (3)
+in G:\portable\xampp\htdocs\protected\controllers\SiteController.php (84)
+in G:\portable\xampp\htdocs\index.php (13)
+2012/11/24 13:41:33 [error] [php] Undefined variable: article (G:\portable\xampp\htdocs\protected\views\site\article.php:3)
+Stack trace:
+#0 G:\portable\xampp\yii\web\CController.php(870): SiteController->renderFile()
+#1 G:\portable\xampp\yii\web\CController.php(783): SiteController->renderPartial()
+#2 G:\portable\xampp\htdocs\protected\controllers\SiteController.php(84): SiteController->render()
+#3 unknown(0): SiteController->actionArticle()
+#4 G:\portable\xampp\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#5 G:\portable\xampp\yii\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#6 G:\portable\xampp\yii\web\CController.php(309): CInlineAction->runWithParams()
+#7 G:\portable\xampp\yii\web\CController.php(287): SiteController->runAction()
+#8 G:\portable\xampp\yii\web\CController.php(266): SiteController->runActionWithFilters()
+#9 G:\portable\xampp\yii\web\CWebApplication.php(283): SiteController->run()
+#10 G:\portable\xampp\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#11 G:\portable\xampp\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#12 G:\portable\xampp\htdocs\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/article
+in G:\portable\xampp\htdocs\protected\views\site\article.php (3)
+in G:\portable\xampp\htdocs\protected\controllers\SiteController.php (84)
+in G:\portable\xampp\htdocs\index.php (13)
+2012/11/24 13:41:34 [error] [php] Undefined variable: article (G:\portable\xampp\htdocs\protected\views\site\article.php:3)
+Stack trace:
+#0 G:\portable\xampp\yii\web\CController.php(870): SiteController->renderFile()
+#1 G:\portable\xampp\yii\web\CController.php(783): SiteController->renderPartial()
+#2 G:\portable\xampp\htdocs\protected\controllers\SiteController.php(84): SiteController->render()
+#3 unknown(0): SiteController->actionArticle()
+#4 G:\portable\xampp\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#5 G:\portable\xampp\yii\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#6 G:\portable\xampp\yii\web\CController.php(309): CInlineAction->runWithParams()
+#7 G:\portable\xampp\yii\web\CController.php(287): SiteController->runAction()
+#8 G:\portable\xampp\yii\web\CController.php(266): SiteController->runActionWithFilters()
+#9 G:\portable\xampp\yii\web\CWebApplication.php(283): SiteController->run()
+#10 G:\portable\xampp\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#11 G:\portable\xampp\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#12 G:\portable\xampp\htdocs\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/article
+in G:\portable\xampp\htdocs\protected\views\site\article.php (3)
+in G:\portable\xampp\htdocs\protected\controllers\SiteController.php (84)
+in G:\portable\xampp\htdocs\index.php (13)
+2012/11/24 13:43:54 [error] [php] Trying to get property of non-object (G:\portable\xampp\htdocs\protected\components\ArticleWidget.php:13)
+Stack trace:
+#0 G:\portable\xampp\yii\web\CBaseController.php(127): require()
+#1 G:\portable\xampp\yii\web\CBaseController.php(96): SiteController->renderInternal()
+#2 G:\portable\xampp\yii\web\CController.php(870): SiteController->renderFile()
+#3 G:\portable\xampp\yii\web\CController.php(783): SiteController->renderPartial()
+#4 G:\portable\xampp\htdocs\protected\controllers\SiteController.php(83): SiteController->render()
+#5 unknown(0): SiteController->actionArticle()
+#6 G:\portable\xampp\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#7 G:\portable\xampp\yii\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#8 G:\portable\xampp\yii\web\CController.php(309): CInlineAction->runWithParams()
+#9 G:\portable\xampp\yii\web\CController.php(287): SiteController->runAction()
+#10 G:\portable\xampp\yii\web\CController.php(266): SiteController->runActionWithFilters()
+#11 G:\portable\xampp\yii\web\CWebApplication.php(283): SiteController->run()
+#12 G:\portable\xampp\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#13 G:\portable\xampp\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#14 G:\portable\xampp\htdocs\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/article&name=blah
+in G:\portable\xampp\htdocs\protected\components\ArticleWidget.php (13)
+in G:\portable\xampp\htdocs\protected\views\site\article.php (3)
+in G:\portable\xampp\htdocs\protected\controllers\SiteController.php (83)
+2012/11/24 13:58:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about".' in G:\portable\xampp\yii\web\CController.php:484
+Stack trace:
+#0 G:\portable\xampp\yii\web\CController.php(271): CController->missingAction('about')
+#1 G:\portable\xampp\yii\web\CWebApplication.php(283): CController->run('about')
+#2 G:\portable\xampp\yii\web\CWebApplication.php(142): CWebApplication->runController('site/about')
+#3 G:\portable\xampp\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 G:\portable\xampp\htdocs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/about
+HTTP_REFERER=http://localhost/index.php?r=site/article&name=frontpage_extra
+---
+2012/11/24 14:12:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "contact".' in G:\portable\xampp\yii\web\CController.php:484
+Stack trace:
+#0 G:\portable\xampp\yii\web\CController.php(271): CController->missingAction('contact')
+#1 G:\portable\xampp\yii\web\CWebApplication.php(283): CController->run('contact')
+#2 G:\portable\xampp\yii\web\CWebApplication.php(142): CWebApplication->runController('site/contact')
+#3 G:\portable\xampp\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 G:\portable\xampp\htdocs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/contact
+HTTP_REFERER=http://localhost/index.php?r=site/page&view=registration
+---
+2012/11/24 14:12:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "contact".' in G:\portable\xampp\yii\web\CController.php:484
+Stack trace:
+#0 G:\portable\xampp\yii\web\CController.php(271): CController->missingAction('contact')
+#1 G:\portable\xampp\yii\web\CWebApplication.php(283): CController->run('contact')
+#2 G:\portable\xampp\yii\web\CWebApplication.php(142): CWebApplication->runController('site/contact')
+#3 G:\portable\xampp\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 G:\portable\xampp\htdocs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/contact
+HTTP_REFERER=http://localhost/index.php?r=site/contact
+---
+2012/11/24 14:12:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "contact".' in G:\portable\xampp\yii\web\CController.php:484
+Stack trace:
+#0 G:\portable\xampp\yii\web\CController.php(271): CController->missingAction('contact')
+#1 G:\portable\xampp\yii\web\CWebApplication.php(283): CController->run('contact')
+#2 G:\portable\xampp\yii\web\CWebApplication.php(142): CWebApplication->runController('site/contact')
+#3 G:\portable\xampp\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 G:\portable\xampp\htdocs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/contact
+HTTP_REFERER=http://localhost/index.php?r=site/contact
+---
+2012/11/24 14:12:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "contact".' in G:\portable\xampp\yii\web\CController.php:484
+Stack trace:
+#0 G:\portable\xampp\yii\web\CController.php(271): CController->missingAction('contact')
+#1 G:\portable\xampp\yii\web\CWebApplication.php(283): CController->run('contact')
+#2 G:\portable\xampp\yii\web\CWebApplication.php(142): CWebApplication->runController('site/contact')
+#3 G:\portable\xampp\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 G:\portable\xampp\htdocs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/contact
+HTTP_REFERER=http://localhost/index.php?r=site/contact
+---
+2012/11/24 14:41:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "info" was not found.' in G:\portable\xampp\yii\web\actions\CViewAction.php:113
+Stack trace:
+#0 G:\portable\xampp\yii\web\actions\CViewAction.php(124): CViewAction->resolveView('info')
+#1 G:\portable\xampp\yii\web\actions\CAction.php(75): CViewAction->run()
+#2 G:\portable\xampp\yii\web\CController.php(309): CAction->runWithParams(Array)
+#3 G:\portable\xampp\yii\web\CController.php(287): CController->runAction(Object(CViewAction))
+#4 G:\portable\xampp\yii\web\CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 G:\portable\xampp\yii\web\CWebApplication.php(283): CController->run('page')
+#6 G:\portable\xampp\yii\web\CWebApplication.php(142): CWebApplication->runController('site/page')
+#7 G:\portable\xampp\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#8 G:\portable\xampp\htdocs\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/index.php?r=site/page&view=info
+HTTP_REFERER=http://localhost/index.php?r=site/page&view=registration
+---
+2012/11/24 15:14:58 [error] [php] Undefined variable: Yii (G:\portable\xampp\htdocs\protected\views\site\info.php:3)
+Stack trace:
+#0 G:\portable\xampp\yii\web\CController.php(870): SiteController->renderFile()
+#1 G:\portable\xampp\yii\web\CController.php(783): SiteController->renderPartial()
+#2 G:\portable\xampp\htdocs\protected\controllers\SiteController.php(76): SiteController->render()
+#3 unknown(0): SiteController->actionInfo()
+#4 G:\portable\xampp\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#5 G:\portable\xampp\yii\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#6 G:\portable\xampp\yii\web\CController.php(309): CInlineAction->runWithParams()
+#7 G:\portable\xampp\yii\web\CController.php(287): SiteController->runAction()
+#8 G:\portable\xampp\yii\web\CController.php(266): SiteController->runActionWithFilters()
+#9 G:\portable\xampp\yii\web\CWebApplication.php(283): SiteController->run()
+#10 G:\portable\xampp\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#11 G:\portable\xampp\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#12 G:\portable\xampp\htdocs\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/info
+in G:\portable\xampp\htdocs\protected\views\site\info.php (3)
+in G:\portable\xampp\htdocs\protected\controllers\SiteController.php (76)
+in G:\portable\xampp\htdocs\index.php (13)
+2012/11/24 15:18:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "info?name=about2".' in G:\portable\xampp\yii\web\CController.php:484
+Stack trace:
+#0 G:\portable\xampp\yii\web\CController.php(271): CController->missingAction('info?name=about...')
+#1 G:\portable\xampp\yii\web\CWebApplication.php(283): CController->run('info?name=about...')
+#2 G:\portable\xampp\yii\web\CWebApplication.php(142): CWebApplication->runController('site/info?name=...')
+#3 G:\portable\xampp\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 G:\portable\xampp\htdocs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/info?name=about2
+HTTP_REFERER=http://localhost/index.php?r=site/info
+---
+2012/11/24 15:21:26 [error] [exception.CException] exception 'CException' with message 'CHttpRequest and its behaviors do not have a method or closure named "getStriptUrl".' in G:\portable\xampp\yii\base\CComponent.php:266
+Stack trace:
+#0 G:\portable\xampp\htdocs\protected\components\ArticleWidget.php(45): CComponent->__call('getStriptUrl', Array)
+#1 G:\portable\xampp\htdocs\protected\components\ArticleWidget.php(45): CHttpRequest->getStriptUrl()
+#2 G:\portable\xampp\yii\web\CBaseController.php(174): ArticleWidget->run()
+#3 G:\portable\xampp\htdocs\protected\views\site\info.php(8): CBaseController->widget('ArticleWidget', Array)
+#4 G:\portable\xampp\yii\web\CBaseController.php(127): require('G:\portable\xam...')
+#5 G:\portable\xampp\yii\web\CBaseController.php(96): CBaseController->renderInternal('G:\portable\xam...', Array, true)
+#6 G:\portable\xampp\yii\web\CController.php(870): CBaseController->renderFile('G:\portable\xam...', Array, true)
+#7 G:\portable\xampp\yii\web\CController.php(783): CController->renderPartial('info', Array, true)
+#8 G:\portable\xampp\htdocs\protected\controllers\SiteController.php(76): CController->render('info', Array)
+#9 [internal function]: SiteController->actionInfo('about1')
+#10 G:\portable\xampp\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#11 G:\portable\xampp\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#12 G:\portable\xampp\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 G:\portable\xampp\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#14 G:\portable\xampp\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 G:\portable\xampp\yii\web\CWebApplication.php(283): CController->run('info')
+#16 G:\portable\xampp\yii\web\CWebApplication.php(142): CWebApplication->runController('site/info')
+#17 G:\portable\xampp\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#18 G:\portable\xampp\htdocs\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/index.php?r=site/info&name=about1
+---
+2012/11/29 19:33:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in G:\portable\xampp\yii\web\CController.php:484
+Stack trace:
+#0 G:\portable\xampp\yii\web\CController.php(271): CController->missingAction('login')
+#1 G:\portable\xampp\yii\web\CWebApplication.php(283): CController->run('login')
+#2 G:\portable\xampp\yii\web\CWebApplication.php(142): CWebApplication->runController('backend/login')
+#3 G:\portable\xampp\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 G:\portable\xampp\htdocs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=backend/login
+---

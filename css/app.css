@@ -1,0 +1,98 @@
+img {
+    border: none;
+}
+
+html, p {
+    font-size: 12px;
+}
+
+body {
+    background: url('images/tapeta-bg.jpg') repeat;
+}
+
+header {
+    background: transparent url('images/header-bg.png') repeat-x;
+    position: relative;
+    height: 160px;
+}
+
+header .main-menu {
+    position: relative;
+    clear: both;
+    text-align: center;
+    padding: 0px 22%;
+    height: 59px;
+    bottom: -10px;
+}
+
+.main-menu .nav-bar {
+    position: absolute;
+    top: -5px;
+    background: transparent;
+    margin: 0;
+    height: 59px;
+}
+
+header .nav-bar li {
+    border: 0px;
+    background: transparent;
+    width: 131px;
+    height: 59px;
+}
+
+header .nav-bar > li:last-child {
+    border: 0px;
+}
+
+header .nav-bar li a {
+    display: block;
+    width: 132px;
+    height: 60px;
+    font-size: 18px !important;
+    font-weight: bold;
+    color: #5e5e5e;
+}
+
+header .nav-bar li.active, header .nav-bar li.active:hover {
+    background: transparent url('images/menu-active-position-bg.png') no-repeat;
+}
+
+header .nav-bar li:hover {
+    background: transparent;
+}
+
+header .nav-bar li a:hover {
+    color: #8e8e8e;
+}
+
+header .logo {
+    padding-top: 3px;
+    display: inline-block;
+}
+
+.welcome {
+    background: white;
+    border: solid green;
+    border-top-width: 2px;
+    border-left-width: 2px;
+    border-bottom-width: 3px;
+    border-right-width: 3px;
+    position: relative;
+}
+
+.regis {
+    display: block;
+    position: absolute;
+    bottom: -50px;
+    right: 0px;
+    width: 92%;
+    padding-right: 39% !important;
+}
+
+.bear {
+    position: absolute;
+    bottom: -80px;
+    right: 0px;
+}
+
+
